@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.fcrm.scripts.VerifyLoginLogout">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="initApp"/>
+          <include name="closeExtentReport"/>
+          <include name="initBrowser"/>
+          <include name="closeApp"/>
+          <include name="initExtentReport"/>
+          <include name="testLogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.fcrm.scripts.VerifyLoginLogout -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
