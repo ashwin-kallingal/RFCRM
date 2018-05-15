@@ -9,7 +9,7 @@ import com.fcrm.base.BasePage;
 
 public class LoginPage extends BasePage
 {	
-	@FindBy(name="usernam")
+	@FindBy(name="username")
 	private WebElement username;
 	
 	@FindBy(name="password")
